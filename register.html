@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Insecure CTF Site</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 400px; margin: 0 auto; padding: 20px; }
+        input { width: 100%; padding: 8px; margin: 8px 0; box-sizing: border-box; }
+        button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Register</h2>
+    <form method="POST">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <label for="eye_color">Security Question: What is your eye color?</label>
+        <input type="text" id="eye_color" name="eye_color" required>
+        
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
